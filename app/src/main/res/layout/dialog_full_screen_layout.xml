@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:minWidth="1000dp"
+    android:minHeight="1000dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/padding_5dp"
+        android:paddingBottom="@dimen/padding_5dp"
+        android:background="@drawable/custom_button_bg">
+
+        <ImageView
+            android:id="@+id/bt_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="@dimen/padding_5dp"
+            android:layout_marginStart="@dimen/padding_5dp"
+            android:layout_marginRight="@dimen/padding_10dp"
+            android:layout_marginEnd="@dimen/padding_10dp"
+            android:src="@drawable/ic_arrow_back_white_24dp"/>
+
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/titleDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_18"
+            app:textAllCaps="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/color_white"
+            android:layout_marginLeft="@dimen/padding_5dp"
+            android:layout_marginStart="@dimen/padding_5dp"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/bt_back"
+            android:layout_toEndOf="@+id/bt_back" />
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/chat_image_layout_left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:visibility="visible" />
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/img_full_screen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:background="@drawable/border_rectangle"
+            android:src="@mipmap/launcher_icon"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

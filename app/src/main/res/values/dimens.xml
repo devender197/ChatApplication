@@ -1,0 +1,110 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--for weight property-->
+    <dimen name="weight_padding">0dp</dimen>
+
+    <dimen name="toolbar_padding">5dp</dimen>
+
+    <dimen name="size_390dp">390dp</dimen>
+    <dimen name="size_300dp">300dp</dimen>
+    <dimen name="size_250dp">250dp</dimen>
+    <dimen name="size_200dp">200dp</dimen>
+    <dimen name="size_190dp">190dp</dimen>
+    <dimen name="size_180dp">180dp</dimen>
+    <dimen name="size_160dp">160dp</dimen>
+    <dimen name="size_140dp">135dp</dimen>
+    <dimen name="size_120dp">120dp</dimen>
+    <dimen name="size_100dp">100dp</dimen>
+    <dimen name="paddingLayout">15dp</dimen>
+    <dimen name="size_80dp">80dp</dimen>
+    <dimen name="size_90dp">90dp</dimen>
+    <dimen name="size_70dp">70dp</dimen>
+    <dimen name="size_58dp">58dp</dimen>
+    <dimen name="size_48dp">48dp</dimen>
+    <dimen name="size_40dp">40dp</dimen>
+    <dimen name="size_34dp">34dp</dimen>
+    <dimen name="size_32dp">32dp</dimen>
+    <dimen name="size_20dp">20dp</dimen>
+    <dimen name="size_12dp">12dp</dimen>
+    <dimen name="size_8dp">8dp</dimen>
+    <dimen name="paddingButtons">10dp</dimen>
+    <dimen name="messageMargin">10dp</dimen>
+
+    <dimen name="paddingMargins_Left">35dp</dimen>
+    <dimen name="paddingMargins_Right">25dp</dimen>
+    <dimen name="marginTopdescription">30dp</dimen>
+    <dimen name="gridImagemargins">8dp</dimen>
+
+
+    <!-- Web view text sizes -->
+    <integer name="webview_comm_text_size_small">7</integer>
+    <integer name="webview_comm_text_size_normal">20</integer>
+    <integer name="webview_comm_text_size_large">25</integer>
+    <integer name="webview_comm_text_size_xlarge">34</integer>
+
+    <!-- Button heights-->
+    <dimen name="button_height_small">36dp</dimen>
+    <dimen name="button_height_large">40dp</dimen>
+    <dimen name="option_btn_height">26dp</dimen>
+
+    <!--  Margin / Padding-->
+    <dimen name="padding_1dp">1dp</dimen>
+    <dimen name="padding_2dp">2dp</dimen>
+    <dimen name="padding_5dp">5dp</dimen>
+    <dimen name="padding_10dp">10dp</dimen>
+    <dimen name="padding_15dp">15dp</dimen>
+    <dimen name="padding_20dp">20dp</dimen>
+    <dimen name="padding_26dp">26dp</dimen>
+    <dimen name="padding_30dp">30dp</dimen>
+
+    <!-- Standard text sizes -->
+    <dimen name="text_size_60">60sp</dimen>
+    <dimen name="text_size_34">34sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_13">13sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_10">10sp</dimen>
+
+    <!-- Line spacing-->
+    <dimen name="line_spacing_1dp">1dp</dimen>
+    <dimen name="line_spacing_2dp">2dp</dimen>
+    <dimen name="line_spacing_5dp">5dp</dimen>
+    <dimen name="line_spacing_7dp">7dp</dimen>
+    <dimen name="line_spacing_10dp">10dp</dimen>
+
+    <!-- Border size-->
+    <dimen name="border_pixel_1">1px</dimen>
+
+
+    <dimen name="login_button_radius">2dp</dimen>
+    <dimen name="bottom_navigation_bar_height">56dp</dimen>
+
+
+    <!--
+        Refer to App Widget Documentation for margin information
+        http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <!-- text size -->
+    <dimen name="txtSizeXLarge">40sp</dimen>
+    <dimen name="txtSizeLarger">30sp</dimen>
+    <dimen name="txtSizeMedium">18sp</dimen>
+    <dimen name="txtSizeMidRange">20sp</dimen>
+    <dimen name="txtSizeNormal">15sp</dimen>
+    <dimen name="txtSizeLarge">22sp</dimen>
+    <dimen name="txtSizeLargeMedium">26sp</dimen>
+    <dimen name="txtSizeSmall">12sp</dimen>
+
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">12sp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">12sp</dimen>
+</resources>

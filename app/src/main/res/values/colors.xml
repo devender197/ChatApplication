@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#008FF1</color>
+    <color name="switch_compat_color">#008FF1</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="black">#000000</color>
+    <color name="order_page_devider">#C6C9CE</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="toast_red">#EB3435</color>
+
+    <color name="toolbar_color">#0488d2</color>
+    <color name="notbar_color">#0577bd</color>
+    <color name="green_color_text">#1ac842</color>
+    <color name="dark_green_color">#389754</color>
+    <color name="darkGreyColor">#555555</color>
+
+
+    <color name="dark_line">#bbbbbb</color>
+    <color name="light_line">#f1f1f1</color>
+    <color name="recyclerview_background_color">#f5f6fa</color>
+    <color name="rowGreyColor">#EFEDED</color>
+    <color name="textBlueColor">#3692DB</color>
+    <color name="line">#ffbcbcbc</color>
+    <color name="textColorGrey">#929598</color>
+    <color name="textchatColor">#0086E1</color>
+    <color name="stripLightBlueColor">#6fbaf6</color>
+    <color name="topBarColor">#3692DB</color>
+
+
+    <color name="alert_dialog_text_color">#DE1B1C20</color>
+    <color name="alert_dialog_primary_text_color">#FF00152D</color>
+    <color name="text_color_gray">#2e2e2e</color>
+    <color name="light_grey_background">#DCDCDC</color>
+    <color name="light_gray">#C0C0C0</color>
+    <color name="transprant">#00000000</color>
+    <color name="opacity_transprant">#40e8e8e9</color>
+    <color name="hash_transprant">#80e8e8e9</color>
+
+    <color name="textcolorblue">#008FF1</color>
+    <color name="colotNumberPicker">#686868</color>
+    <color name="theme_tab_bg_color">#e5e5e5</color>
+    <color name="teamLeaderBoardTabUnselectedColor">#00EDEDED</color>
+    <color name="translucent">#20000000</color>
+    <color name="msg_background">#949494</color>
+    <color name="msg_background_last">#6F6F6F</color>
+
+    <!--Step View Colors-->
+    <color name="yellow">#ffe00e</color>
+    <color name="primary">#03A9F4</color>
+    <color name="orange">#fffaaa00</color>
+    <color name="green">#13D641</color>
+    <color name="red">#FF300E</color>
+    <color name="white">#ffffff</color>
+
+</resources>

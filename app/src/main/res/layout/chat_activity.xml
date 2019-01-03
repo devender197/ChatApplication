@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/rowGreyColor"
+        android:padding="@dimen/paddingButtons"
+        android:visibility="gone">
+
+        <FrameLayout
+            android:id="@+id/llImageHolderparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:id="@+id/llImageBoundary"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/messagelist_border_grey"
+                android:gravity="center"
+                android:padding="3dp" >
+
+                <com.example.a3logics.chatapplication.AudioRecordingButton.RoundedImageViewCircular
+                    android:id="@+id/imViewNotificationContact"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+                </com.example.a3logics.chatapplication.AudioRecordingButton.RoundedImageViewCircular>
+                <!-- android:padding="@dimen/paddingUserImage" -->
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/llUserDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_toEndOf="@+id/llImageHolderparent"
+            android:layout_toRightOf="@+id/llImageHolderparent"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <!-- android:layout_alignTop="@+id/imViewNotificationContact" -->
+
+            <TextView
+                android:id="@+id/tvContactName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLength="20"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textIsSelectable="false"
+                android:textSize="@dimen/txtSizeMedium" />
+
+            <TextView
+                android:id="@+id/tvContactNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/textBlueColor"
+                android:textIsSelectable="false"
+                android:textSize="@dimen/txtSizeMedium" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvDeleteChat"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/llUserDetails"
+            android:background="@android:color/transparent"
+            android:singleLine="true"
+            android:text="@string/txtDelete"
+            android:textColor="@color/textBlueColor"
+            android:textIsSelectable="false"
+            android:textSize="@dimen/txtSizeMedium" />
+        <!-- </LinearLayout> -->
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlChat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/view"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType = "centerCrop"
+                android:src="@color/line"
+                android:visibility="gone"
+                android:id="@+id/wallpaper_backgroud"/>
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_chat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"
+            android:layout_above="@+id/llMessageContainer"
+            android:scrollbars="none" >
+        </android.support.v7.widget.RecyclerView>
+        <!-- android:layout_above="@+id/view" -->
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@+id/llMessageContainer"
+            android:background="@color/textColorGrey" />
+
+        <TextView
+            android:id="@+id/typingIndicator"
+            android:layout_above="@id/view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="typing....."
+            android:visibility="gone"
+            android:textSize="@dimen/txtSizeMedium"
+            />
+
+        <LinearLayout
+            android:id="@+id/llMessageContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/rowGreyColor"
+                android:gravity="left"
+                android:orientation="horizontal"
+                android:padding="@dimen/paddingButtons">
+
+                <!-- @dimen/heightetChatBox -->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:animateLayoutChanges="true"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/layout_attachment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true">
+                        <ImageView
+                            android:id="@+id/btnPredefinedMessages"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:src="@drawable/ic_insert_drive_file_black_24dp" />
+
+                        <ImageView
+                            android:id="@+id/attachment"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:src="@drawable/ic_photo_camera_black_24dp"
+                            />
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/edit_text_message"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@+id/llSendMessage"
+                        android:layout_toRightOf="@+id/layout_attachment"
+                        android:background="@drawable/edittext_background_chat"
+                        android:gravity="center_vertical"
+                        android:hint="@string/txtHintChat"
+                        android:minHeight="50dp"
+                        android:paddingBottom="3dp"
+                        android:paddingEnd="@dimen/paddingButtons"
+                        android:paddingLeft="@dimen/paddingButtons"
+                        android:paddingRight="@dimen/paddingButtons"
+                        android:paddingStart="@dimen/paddingButtons"
+                        android:singleLine="false"
+                        android:imeOptions="actionSend"
+                        android:inputType="textCapSentences"
+                        android:textColor="@android:color/black"
+                        android:maxLines="1"
+                        android:textCursorDrawable="@drawable/black_cursor"
+                        android:textSize="@dimen/txtSizeMedium" />
+
+                    <LinearLayout
+                        android:id="@+id/llSendMessage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:layout_alignParentRight="true"
+                        android:animateLayoutChanges="true"
+                        android:orientation="horizontal"
+                        >
+
+                        <ImageView
+                            android:id="@+id/btnSendMessage"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:src="@drawable/circular_send"
+                            android:visibility="gone" />
+
+                        <com.example.a3logics.chatapplication.AudioRecordingButton.RecordingButton
+                            android:id="@+id/btnAudioMessage"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:padding="5dp"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginStart="2dp"
+                            android:background="@drawable/circular_recording_grey"
+                            android:textStyle="bold"
+                            />
+
+
+
+                        <!--<Button-->
+                        <!--android:id="@+id/btnPredefinedMessagesImage"-->
+                        <!--style="?android:attr/buttonBarButtonStyle"-->
+                        <!--android:layout_width="@dimen/chkBoxWidth"-->
+                        <!--android:layout_height="@dimen/chkBoxHeight"-->
+                        <!--android:layout_marginLeft="@dimen/paddingSearchBar"-->
+                        <!--android:background="@drawable/preconfig_messages"-->
+                        <!--android:visibility="visible" />-->
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <!--<EditText
+                    android:id="@+id/edit_text_message"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="@dimen/paddings_Features"
+                    android:background="@drawable/rounded_rect_bg"
+                    android:hint="type_a_message"
+                    android:imeOptions="actionSend"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:padding="@dimen/paddings_Features" />-->
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_mssges"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    android:orientation="vertical"
+                    android:padding="10dp" >
+
+                    <ListView
+                        android:id="@+id/lvPredefinedMessages"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:cacheColorHint="@android:color/transparent"
+                        android:divider="#00000000"
+                        android:dividerHeight="0dp"
+                        android:scrollbars="none" >
+                    </ListView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

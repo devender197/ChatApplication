@@ -1,0 +1,67 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--for weight property-->
+    <dimen name="weight_padding">0dp</dimen>
+
+
+    <dimen name="size_390dp">570dp</dimen>
+    <dimen name="size_300dp">450dp</dimen>
+    <dimen name="size_250dp">350dp</dimen>
+    <dimen name="size_200dp">300dp</dimen>
+    <dimen name="size_190dp">290dp</dimen>
+    <dimen name="size_180dp">280dp</dimen>
+    <dimen name="size_160dp">240dp</dimen>
+    <dimen name="size_140dp">210dp</dimen>
+    <dimen name="size_120dp">180dp</dimen>
+    <dimen name="size_100dp">160dp</dimen>
+    <dimen name="size_80dp">125dp</dimen>
+    <dimen name="size_70dp">90dp</dimen>
+    <dimen name="size_58dp">77dp</dimen>
+    <dimen name="size_48dp">72dp</dimen>
+    <dimen name="size_40dp">58dp</dimen>
+    <dimen name="size_34dp">44dp</dimen>
+    <dimen name="size_32dp">42dp</dimen>
+    <dimen name="size_20dp">30dp</dimen>
+    <dimen name="size_12dp">19dp</dimen>
+    <dimen name="size_8dp">14dp</dimen>
+
+    <!-- Button heights-->
+    <dimen name="button_height_small">54dp</dimen>
+    <dimen name="button_height_large">50dp</dimen>
+    <dimen name="option_btn_height">40dp</dimen>
+
+    <!--  Margin / Padding-->
+    <dimen name="padding_1dp">2dp</dimen>
+    <dimen name="padding_2dp">3dp</dimen>
+    <dimen name="padding_5dp">7dp</dimen>
+    <dimen name="padding_10dp">14dp</dimen>
+    <dimen name="padding_15dp">21dp</dimen>
+    <dimen name="padding_20dp">27dp</dimen>
+    <dimen name="padding_26dp">36dp</dimen>
+    <dimen name="padding_30dp">40dp</dimen>
+
+    <!-- Standard text sizes -->
+    <dimen name="text_size_60">90sp</dimen>
+    <dimen name="text_size_34">51sp</dimen>
+    <dimen name="text_size_24">36sp</dimen>
+    <dimen name="text_size_20">30sp</dimen>
+    <dimen name="text_size_18">27sp</dimen>
+    <dimen name="text_size_16">22sp</dimen>
+    <dimen name="text_size_14">21sp</dimen>
+    <dimen name="text_size_13">20sp</dimen>
+    <dimen name="text_size_12">18sp</dimen>
+    <dimen name="text_size_10">15sp</dimen>
+
+    <!-- Line spacing-->
+    <dimen name="line_spacing_1dp">2dp</dimen>
+    <dimen name="line_spacing_2dp">3dp</dimen>
+    <dimen name="line_spacing_5dp">7dp</dimen>
+    <dimen name="line_spacing_7dp">10dp</dimen>
+    <dimen name="line_spacing_10dp">14dp</dimen>
+
+    <!-- Border size-->
+    <dimen name="border_pixel_1">1px</dimen>
+</resources>

@@ -1,0 +1,754 @@
+<resources>
+    <string name="app_name">chatapplication</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="unsuccessful_exception">Operation Cannot be complete at moment. Please Try again Later</string>
+    <string name="txtDelete">Delete</string>
+    <string name="txtHintChat">Type message...</string>
+    <string name="txt_record">RECORD</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_forgot_password_loading">Forgot Password...</string>
+    <string name="title_create_user_loading">Sending Data...</string>
+    <string name="title_getting_data_loading">Getting Data...</string>
+    <string name="title_progress_dialog_searching">Search State and city....</string>
+    <string name="title_login_loading">Login...</string>
+    <string name="title_deleting_notifications">Deleting Notifications...</string>
+    <string name="title_please_wait">Please Wait...</string>
+    <string name="title_fetching_tickets">Fetching Tickets...</string>
+    <string name="title_fetching_ticket_info">Fetching Ticket Info...</string>
+    <string name="title_fetching_properties">Fetching Properties...</string>
+    <string name="title_fetching_property_info">Fetching Property Information...</string>
+    <string name="title_deleting_property">Deleting Property...</string>
+    <string name="title_adding_property">Adding Property...</string>
+    <string name="title_updating_property">Updating Property Information...</string>
+    <string name="title_searching">Searching...</string>
+    <string name="title_deleting_vendor">Deleting Vendor...</string>
+    <string name="title_inviting_vendor">Inviting Vendor...</string>
+    <string name="title_adding_vendor_type">Adding Vendor Type...</string>
+    <string name="title_assign_property_tovendor">Assigning Property to Vendor...</string>
+    <string name="title_updating_personal_info">Updating Personal Information...</string>
+    <string name="title_registering">Registering...</string>
+    <string name="title_updateing_sequrity_info">Updating Sequrity Information...</string>
+    <string name="title_changing_password">Changing Password...</string>
+    <string name="title_logout">Logout...</string>
+    <string name="title_accepting_ticket">Accepting ticket...</string>
+    <string name="title_invite_client">Invite Client...</string>
+    <string name="title_creating_ticket">Creating Ticket...</string>
+    <string name="permission_audio_disallow">You need to accept the audio permission for Recording audio</string>
+    <string name="permission_audio_must_include_text">You need to accept the audio permission for Recording audio. On pressing "OK". App will Redirect you to app Setting</string>
+
+    <!--Dialog strings-->
+    <string name="dilog_title_confirmation">Confirmation Required</string>
+    <string name="dilog_tilte_alert">Vendor Crush</string>
+    <string name="dilog_title_success">Success</string>
+    <string name="alert_ticket_close">Do you want to cancel ticket ?</string>
+    <string name="txt_read_staus_sending">sending</string>
+    <string name="txt_read_staus_sent">sent</string>
+    <string name="txt_read_staus_received">read</string>
+
+
+
+    <!--Sign in screen text-->
+    <string name="title_activity_login">Sign in</string>
+    <string name="txt_keep_me_login">Keep me logged in</string>
+    <string name="txt_sign_in">SIGN IN</string>
+    <string name="txt_forgot_pwd">Forgot Password?</string>
+    <string name="txt_email_mobile">E-mail or mobile number</string>
+    <string name="txt_sign_up_caps">SIGN UP</string>
+    <string name="txt_email_pwd_mismatch">Email id and password mismatch!</string>
+    <string name="login_password_hint">Password*</string>
+    <string name="login_password_label">PASSWORD</string>
+
+    <!-- Sign Up Screen text-->
+    <string name="txt_sign_up">Sign up</string>
+    <string name="txt_sign_up_acceptance">Acceptance for user agreement</string>
+    <string name="txt_sign_up_email_terms_acceptance">Email me Terms and Conditions</string>
+    <string name="txt_sequrity_description">The questions below will be used to help you log in to your account if you forgot your password.</string>
+    <string name="txt_fb_sign_up">Log in with Facebook</string>
+    <string name="txt_gp_sign_up">Log in with Google</string>
+    <string name="txt_home_owner">Home Owner</string>
+    <string name="txt_property_manager">Property Manager</string>
+    <string name="txt_property_manager_caps">PROPERTY MANAGER</string>
+    <string name="txt_home_owner_caps">HOME OWNER</string>
+    <string name="txt_invite_client">Invite Client</string>
+    <string name="txt_tenant">Tenant</string>
+    <string name="txt_vendor">Vendor</string>
+    <string name="txt_vendor_caps">VENDOR</string>
+    <string name="txt_vendors">Vendors</string>
+    <string name="txt_tenants">Tenants</string>
+    <string name="txt_home_owner_role">home_owner</string>
+    <string name="txt_property_manager_role">property_manager</string>
+    <string name="txt_vendor_role">vendor</string>
+    <string name="txt_as">As</string>
+
+    <string name="txt_plumbing">Plumbing</string>
+    <string name="txt_electrical">Electrical</string>
+    <string name="txt_landscaping">Landscaping</string>
+    <string name="txt_carpentry">Carpentry</string>
+    <string name="txt_cleaning">Cleaning</string>
+    <string name="txt_decks_and_porches">Deck &amp; Porches</string>
+    <string name="txt_drywall_and_insulation">Drywall &amp; Insulation</string>
+    <string name="txt_heating_and_cooling">Heating &amp; Cooling</string>
+    <string name="txt_painting">Painting</string>
+    <string name="txt_rooting">Roofing</string>
+    <string name="txt_swimming_pools_and_spas">Pool &amp; Spas</string>
+    <string name="txt_general">General</string>
+
+    <string name="txt_name">NAME</string>
+    <string name="txt_edit_info">Edit your personal information in the fields below, then press \"Save\" to save changes.</string>
+    <string name="txt_first_name">First Name*</string>
+    <string name="txt_first_name_na">First Name</string>
+    <string name="txt_last_name">Last Name*</string>
+    <string name="txt_dob">DOB*</string>
+    <string name="txt_last_name_na">Last Name</string>
+    <string name="txt_zip_code_label">ZIP CODE</string>
+    <string name="txt_zip_code">Zip Code*</string>
+    <string name="txt_zip_code_na">Zip Code</string>
+    <string name="txt_email">E-MAIL</string>
+    <string name="txt_address">Address</string>
+    <string name="txt_primary_email">Primary E-mail*</string>
+    <string name="txt_confirm_primary_email">Confirm Email*</string>
+    <string name="txt_alternate_email">Alternate E-mail</string>
+    <string name="txt_phone_lebel">Phone</string>
+    <string name="txt_phone">PHONE</string>
+    <string name="txt_phone_not_mandatory">Phone</string>
+    <string name="txt_primary_phone">Primary Phone*</string>
+    <string name="txt_alternate_phone">Alternate Phone</string>
+    <string name="txt_role">YOUR ROLE*</string>
+    <string name="txt_role_camel_case">Your Role*</string>
+    <string name="txt_property_name">Property Name*</string>
+    <string name="txt_property_name_cap">PROPERTY NAME</string>
+    <string name="txt_property_address_cap">PROPERTY ADDRESS</string>
+    <string name="txt_street_address">Street Address*</string>
+
+    <string name="txt_address_line2">Address Line 2</string>
+    <string name="txt_address_line_text">Address Line 1*</string>
+    <string name="txt_address_line_text_na">Address Line 1</string>
+    <string name="txt_city">City*</string>
+    <string name="txt_city_na">City</string>
+    <string name="txt_state">State*</string>
+    <string name="txt_state_na">State</string>
+    <string name="txt_country">Country*</string>
+    <string name="txt_country_na">Country</string>
+    <string name="txt_select_one">(Select atleast one)</string>
+    <string name="txt_retype_pwd">Confirm Password*</string>
+    <string name="txt_security_question_one">SECURITY QUESTION 1</string>
+    <string name="txt_security_question_two">SECURITY QUESTION 2</string>
+    <string name="txt_security_question_three">SECURITY QUESTION 3</string>
+    <string name="txt_next">Next</string>
+    <string name="txt_submit">Submit</string>
+    <string name="txt_select_question">Select Question</string>
+    <string name="txt_answer">Answer</string>
+    <string name="email_id_warning">Please enter email id.</string>
+    <string name="email_id_valid_warning">Please enter valid email id.</string>
+    <string name="email_id_same_valid_warning">primary and secondary emails cannot be same.</string>
+    <string name="password_warning">Please enter password.</string>
+    <string name="password_didnot_match_warning">Password didn\'t match.</string>
+    <string name="password_confirm">Confirm New Password* </string>
+    <string name="password_new">New Password*</string>
+    <string name="network_error_message">Network not available</string>
+    <string name="network_error_title">Vendor Crush</string>
+    <string name="login_loading_mesage">Checking the credentials...</string>
+    <string name="confirm_new_pswd_not_same">New password and confirm Password not same</string>
+    <string name="old_new_pswd_same">New and old password is same</string>
+    <string name="alert_space_not_allowed">Space is not allowed</string>
+    <string name="alter_passwd_length">Password length should be greater than 4</string>
+
+    <string name="fetch_property_mesage">Fetching Properties...</string>
+    <string name="add_property_mesage">Adding property...</string>
+    <string name="delete_property_mesage">Deleting property...</string>
+    <string name="edit_property_mesage">Editing property...</string>
+
+    <string name="select_question_one">Select Question1*</string>
+    <string name="select_question_two">Select Question2*</string>
+    <string name="select_question_three">Select Question3*</string>
+
+    <string name="select_user_role">Role*</string>
+
+    <string name="first_name_warning">Please enter first name.</string>
+    <string name="last_name_warning">Please enter last name.</string>
+    <string name="primary_email_warning">Please enter primary email id.</string>
+    <string name="confirm_email_warning">Please enter confirm email id.</string>
+    <string name="confirm_email_not_similar_warning">primary email and confirm email ids are not same.</string>
+    <string name="zip_code_warning">Please enter Zip code with length 5.</string>
+    <string name="country_warning">Please enter country name</string>
+    <string name="primary_phone_warning">Please enter primary phone number with length 10.</string>
+    <string name="phone_warning">Please enter phone number with length 10.</string>
+    <string name="select_atleast_one_role_warning">Please select atleast one role.</string>
+    <string name="select_atleast_one_speciality_warning">Please select atleast one speciality for vendor.</string>
+    <string name="select_useragreement_warning">Please select user agreement.</string>
+    <string name="enter_valid_email">Please Enter Valid Email.</string>
+    <string name="securit_answer_warning">Please enter an answer for the selected question.</string>
+    <string name="securit_question_warning">Please select question.</string>
+    <string name="txt_email_not_found">Unable to fetch email id.</string>
+
+    <string-array name="security_questions_array">
+        <item>Where was I born?</item>
+        <item>What is my favorite color?</item>
+        <item>What is my favorite book I read so far?</item>
+        <item>What is my pet\'s name?</item>
+        <item>Who  is my favorite actor?</item>
+    </string-array>
+
+    Where was i born?
+    What is my favorite color?
+    What is my favorite book i read so far?
+    What is my pet's name?
+    Who is my favorite actor?
+
+    <string-array name="both_speciality_array">
+        <item>Property Manager</item>
+        <item>Home Owner</item>
+    </string-array>
+
+    <string-array name="home_owner_array">
+        <item>Home Owner</item>
+    </string-array>
+
+    <string-array name="property_manager_array">
+        <item>Property Manager</item>
+    </string-array>
+
+    <string-array name="user_type_array">
+        <item>Property manager</item>
+        <item>Home owner</item>
+        <!--<item>Tenant</item>
+        <item>Vendor</item>-->
+    </string-array>
+
+
+    <!--Recover Password screen-->
+    <string name="title_activity_recover_password">Recover Password</string>
+
+    <string name="txt_reg_email_id">"Enter registered Email id"</string>
+    <string name="txt_email_reg_id_sent">A new password sent to the Email id</string>
+    <string name="txt_email_reg_id_error_msg">Email id not registered with us</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_change_password">Change password</string>
+    <string name="txt_change">Change</string>
+
+    <!--Error's -->
+    <string name="err_msg_400">Bad Request</string>
+    <string name="err_msg_401">Invalid user name or password</string>
+    <string name="err_msg_404">Invalid request</string>
+    <string name="err_msg_405">Method Not Allowed</string>
+    <string name="err_msg_415">Unsupported message type</string>
+    <string name="err_msg_500">Internal server error</string>
+    <string name="err_msg_default">An unexpected error occurred</string>
+    <string name="host_not_found">Something went wrong !!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_property">! No Property Added</string>
+
+    <!--Settings fragment-->
+    <string name="text_profile">Profile</string>
+    <string name="text_profile_personal_info">Personal Information</string>
+    <string name="text_profile_security">Security</string>
+    <string name="text_profile_payment_options">Payment Options</string>
+    <string name="text_profile_payment_review">Payment Review</string>
+    <string name="text_notifications">Notifications</string>
+    <string name="text_notifications_push">Push</string>
+    <string name="title_activity_property_info_page">Property Information</string>
+    <string name="title_activity_add_vendor">AddVendor</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="logout">Log out</string>
+    <string name="logout_dialog">Are you sure you want to logout?</string>
+    <string name="manual_info_dialog">Text to be displayed</string>
+    <string name="txt_yes">YES</string>
+    <string name="txt_yes_yes">Yes</string>
+    <string name="txt_no">NO</string>
+    <string name="txt_no_no">No</string>
+    <string name="invite_client">Invite Client</string>
+    <string name="txt_save">Save</string>
+
+    <string name="txt_setting_intent_key">intent key</string>
+    <string name="txt_setting_ticket_type_key">ticket type</string>
+    <string name="txt_pn_ticket_type">pn_ticket_type</string>
+    <string name="txt_pn_action_type">pn_action_type</string>
+    <string name="txt_pn_property_id">pn_property_id</string>
+    <string name="txt_ticket_type_pending">pending</string>
+    <string name="txt_ticket_type_maintenance">maintenance</string>
+    <string name="txt_setting_alert_message_model_intent">txt_setting_alert_message_model_intent</string>
+    <string name="txt_setting_ticket_message_key">ticket message</string>
+    <string name="txt_setting_non_edit_intent_key">non edit intent key</string>
+    <string name="txt_ticketid_key">ticketid</string>
+    <string name="txt_propertyid">propertyId</string>
+    <string name="txt_speciality">speciality</string>
+    <string name="txt_intent_onactivityresult">ticketid</string>
+    <string name="txt_intent_onactivityresult_pay_source">pay_source</string>
+    <string name="txt_property_detail_intent_key_id">property id</string>
+    <string name="txt_property_id_by_pn">property id pn</string>
+    <string name="txt_set_result_string">set_result</string>
+    <string name="txt_set_user_role_string">txt_set_user_role</string>
+    <string name="txt_set_screen_mode">txt_set_screen_mode</string>
+    <string name="txt_intent_firebase">txt_intent_firebase</string>
+
+    <string name="txt_property_detail_intent_key_title">property title</string>
+    <string name="txt_property_details_list">property detail list</string>
+    <string name="txt_property_apartment">Apartment</string>
+    <string name="txt_property_vendors">Vendors</string>
+    <string name="txt_ticket_window">move to ticket window</string>
+
+
+    <!--facebook credentials-->
+    <string name="facebook_app_id">198051807426674</string>
+    <string name="fb_login_protocol_scheme">fb198051807426674</string>
+
+    <!--screen titles-->
+    <string name="title_activity_alert">Alert</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_add_property">Add Property</string>
+    <string name="title_activity_edit_property">Edit Property</string>
+    <string name="title_activity_forgot_password">Forgot Password</string>
+    <string name="title_activity_sign_in">Sign In</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name="title_activity_user_agreement">User Agreement</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_reports">Reports</string>
+    <string name="title_alert">Alerts</string>
+    <string name="title_ticket">Tickets</string>
+    <string name="title_description_ticket">Ticket</string>
+    <string name="title_property">Property</string>
+    <string name="title_change_password">Change Password</string>
+    <string name="title_payment_option">Payment Option</string>
+    <string name="title_payment_review">Payment Review</string>
+
+    <string name="title_activity_personal_info">Personal Information</string>
+    <string name="title_activity_security">Security</string>
+    <string name="title_activity_change_passwd">Change Password</string>
+    <string name="title_activity_property_detail">Property Detail</string>
+
+    <!--Dashboard-->
+    <string name="txt_action_reports">REPORTS</string>
+    <string name="txt_action_settings">SETTINGS</string>
+    <string name="txt_action_alert">ALERTS</string>
+    <string name="txt_action_ticket">TICKETS</string>
+    <string name="txt_action_property">PROPERTY</string>
+    <string name="txt_action_add">Add</string>
+    <string name="txt_action_invite_vendor">Invite</string>
+    <string name="txt_action_delete_alert">Delete Alerts</string>
+    <string name="txt_action_schedule">Schedule</string>
+
+    <!-- invite Client-->
+    <string name="txt_invite_client_btn_text">Invite</string>
+    <string name="txt_invite_lable">Invite by Email ID</string>
+
+    <!--property -->
+    <string name="txt_on_empty_propertty">Please add property</string>
+    <string name="txt_on_empty_propertty_for_tenant">You are not invited yet</string>
+    <string name="txt_dialog_add_property">Please complete this form to enter a property into VendorCrush</string>
+
+    <!--Property Manager-->
+    <string name="txt_property_manager_">Property Manager</string>
+    <string name="txt_property_manager_top_string_">Property Manager</string>
+
+    <string name="txt_apt">Apt*</string>
+    <string name="txt_apt_hint">Address</string>
+    <string name="txt_message_max_value_Str">99+</string>
+
+
+
+    <string name="property_name_warning">Please enter Property Name</string>
+
+    <string name="street_add_warning">Please enter Street Address</string>
+    <string name="Invalid_date_warning">Your Card\'s expiration date is invalid </string>
+    <string name="Invalid_month_warning">Your Card\'s expiration month is invalid </string>
+    <string name="Invalid_year_warning">Your Card\'s expiration year is invalid </string>
+    <string name="address_line1_warning">Please enter Address line 1</string>
+    <string name="state_warning">Please enter State</string>
+    <string name="address_warning">Please enter Address</string>
+    <string name="city_warning">Please enter City</string>
+    <string name="role_warning">Please enter your Role</string>
+    <string name="bank_name_warning">Please enter your Bank name</string>
+    <string name="bank_account_number_warning">Please enter your Bank account number</string>
+    <string name="bank_routing_number_warning">Please enter your Bank Identification Code</string>
+    <string name="customer_name_warning">Please enter card Owner Name</string>
+    <string name="dob_warning">Please enter date of birth</string>
+
+    <string name="title_add_property_loading">Adding Property...</string>
+    <string name="title_updating_property_loading">Updating Property...</string>
+    <string name="title_activity_property">PropertyActivity</string>
+    <string name="delete_property">Deleting Property...</string>
+    <string name="alert">Alert</string>
+    <string name="Delete_property_txt">Delete Property?</string>
+    <string name="allready_added_property">You can be House Owner to only one property. Please open settings->personal
+        information and update your role to Property Manager for managing additional properties!</string>
+
+    <!--Edit property-->
+    <string name="delete_alert"> Delete from Apartment List</string>
+    <string name="undo_txt">UNDO</string>
+    <string name="regex_pattern">\\s*,\\s*</string>
+    <!--<string name="property_mode">property_mode</string>
+    <string name="add_property_mode">add property</string>
+    <string name="edit_property_mode">edit property</string>
+    -->
+
+    <!--find , add and invite vendor -->
+    <string name="txt_add_vendor_type">Add Vendor Type</string>
+    <string name="txt_invite_general_vendor">Add General Vendor</string>
+    <string name="txt_primary">Primary</string>
+    <string name="txt_secondary">Secondary</string>
+    <string name="txt_third">Third</string>
+    <string name="txt_General">General</string>
+    <string name="txt_add_general_vendor">Add General Vendor</string>
+    <string name="txt_add_primary_vendor">Add Primary Vendor</string>
+    <string name="txt_add_secondary_vendor">Add Secondary Vendor</string>
+    <string name="txt_add_third_vendor">Add Third Vendor</string>
+    <string name="txt_find_vendor">Find</string>
+    <string name="txt_invite_vendor">Invite</string>
+    <string name="txt_add_vendor">Add</string>
+    <string name="txt_addVendor_message">You can add vendors into VendorCrush</string>
+    <string name="enter_vendor_mail_id">enter vendor mail id</string>
+    <string name="txt_vendor_level">vendor level</string>
+    <string name="txt_vendor_speciality">vendor speciality</string>
+    <string name="txt_vendor_id">vendor id</string>
+    <string name="txt_select_vendor">Select Vendor Type</string>
+    <string name="title_invite_vendor">New Vendor</string>
+    <string name="title_vendor_type">Vendor Type</string>
+    <string name="txt_add_new_vendor">Are you Sure to add new vendor ?</string>
+    <string name="txt_delete_new_vendor">Are you sure to delete current vendor ?</string>
+    <string name="txt_diloag_vendor_type_already_exist">Selected Vendor type already exist</string>
+
+    <!-- find ,add and invite tenant-->
+    <string name="txt_addTenant_message">You can add tenants into VendorCrush</string>
+    <string name="txt_bt_next_tenant">Next</string>
+    <string name="title_Add_Tenant">Add Tenants</string>
+    <string name="title_invite_Tenant">New tenant</string>
+    <string name="txt_find_tenant">Find</string>
+    <string name="txt_invite_tenant">Invite</string>
+    <string name="txt_add_tenant">Add</string>
+    <string name="enter_tenant_mail_id">enter tenant mail id</string>
+    <string name="txt_btn_add_new_tenant">Add Tenant</string>
+    <string name="txt_tenant_id">tenant id</string>
+    <string name="txt_apt_id">apt id</string>
+    <string name="txt_add_new_tenant">Are you Sure to add new tenant ?</string>
+    <string name="txt_delete_new_tenant">Are you sure you want to delete ?</string>
+
+
+    <!-- vendor type -->
+    <string name="txt_select_vendor_type">Select Vendor Type</string>
+    <string name="txt_btn_select">Select</string>
+    <string name="txt_btn_cancel">Cancel</string>
+    <string name="txt_btn_assign">Assign</string>
+
+    <!-- invite vendor-->
+
+    <string name="txt_vendor_awaiting_confirmation">Awaiting Confirmation</string>
+    <string name="txt_vendor_email">vendor@mailinator.com</string>
+    <string name="txt_btn_add_new_vendor">Add new vendor</string>
+    <string name="txt_btn_delete_vendor">Delete</string>
+
+
+    <!--Ticket status-->
+
+    <string name="text_maintenance">Maintenance</string>
+    <string name="text_pending">Pending</string>
+    <string name="text_closed">Closed</string>
+    <string name="text_Rejected">Rejected</string>
+    <string name="text_no_ticket">You don\’t have any tickets at this time</string>
+
+    <!--Add new Ticket -->
+    <string name="txt_no_property_msg">No property created. Please create property</string>
+    <string name="txt_no_property_tenant_alert">you should be invited to property to be able to create tickets</string>
+    <!--<string name="txt_no_vendor_tenant">This ticket would now be assigned to Property Manager</string>-->
+    <string name="txt_no_vendor_tenant">Ticket switched to manually handled.</string>
+    <string name="txt_property">PROPERTY</string>
+    <string name="txt_ticket_type">TICKET TYPE</string>
+    <string name="txt_job_type">JOB TYPE</string>
+    <string name="txt_sp_vendor">VENDOR</string>
+    <string name="txt_issue">ISSUE</string>
+    <string name="txt_priority">PRIORITY</string>
+    <string name="txt_tenant_ticket">TENANT</string>
+    <string name="txt_start_date">Start</string>
+    <string name="txt_start_date_caps">START</string>
+    <string name="txt_end_date">End</string>
+    <string name="txt_end_date_caps">END</string>
+    <string name="txt_repeat_date">Repeat</string>
+    <string name="txt_repeat_date_caps">REPEAT</string>
+    <string name="txt_aptment">APARTMENT</string>
+    <string name="bt_txt_create">Create</string>
+    <string name="alert_no_vendor">Vendor not available</string>
+    <string name="txt_add_photo">Add Photo</string>
+    <string name="txt_add_ticket">New Ticket</string>
+    <string name="txt_issue_comment">Comments</string>
+    <string name="txt_bt_accept">ACCEPT</string>
+    <string name="txt_bt_quote">QUOTE</string>
+    <string name="txt_bt_re_quote">REQUOTE</string>
+    <string name="txt_bt_work_complete">Work Complete</string>
+    <string name="txt_bt_decline">Decline</string>
+    <string name="title_ticket_detail_screen">Ticket</string>
+    <string name="txt_btn_decline_send">Decline</string>
+    <string name="txt_btn_send">Send</string>
+    <string name="txt_write_reason">Write the reason</string>
+    <string name="txt_reason_decline_ticket">Decline Ticket</string>
+    <string name="txt_reason_decline_quote">Decline Quote</string>
+    <string name="txt_vendor_detail">VENDOR DETAIL</string>
+    <string name="txt_reason_incomplete_work">Inspection Status</string>
+    <string name="txt_reason">Reason</string>
+    <string name="txt_no_tenant">Tenant Not Present</string>
+    <string name="txt_no_vendor">Vendor Not Present</string>
+    <string name="txt_no_priority">Priority Not Present</string>
+    <string name="txt_tab_desc">Description</string>
+    <string name="txt_tab_chat">Chat</string>
+    <string name="txt_ticket_close">Cancel</string>
+    <string name="txt_bt_inspected">INSPECTED</string>
+    <string name="txt_bt_work_incomplete">Work Incomplete</string>
+    <string name="txt_bt_epay">Pay</string>
+    <string name="txt_bt_pay">ePAY</string>
+    <string name="txt_bt_pay_cash">Pay Cash</string>
+    <string name="txt_bt_confirm">Confirm</string>
+    <string name="txt_bt_close">Cancel</string>
+    <string name="txt_bt_manually_handle">Handle Manually</string>
+    <string name="txt_bt_manually_ticket_handle">Handle Ticket Manually</string>
+    <string name="alert_select_property">Please select property</string>
+    <string name="alert_select_apartment">Please select Apartment</string>
+    <string name="alert_select_job">Please select Job</string>
+    <string name="alert_select_ticket_type">Please select TicketType</string>
+    <string name="alert_select_priority">Please select Priority</string>
+    <string name="alert_select_issue_title">Please enter issue title</string>
+    <string name="alert_select_vendor">Please add Vendor</string>
+    <string name="alert_no_apt">No Apartments</string>
+    <string name="alert_select_start_date">Please select start date</string>
+    <string name="alert_select_end_date">Please select end date</string>
+    <string name="alert_select_repeat">Please select repeat frequency</string>
+    <string name="txt_assessment_info">*This job has service fee inclued. Learn more</string>
+    <string name="txt_total_cost">Total : $%1$s</string>
+    <string name="txt_total_first">Total :$0.00</string>
+    <string name="alert_assessment_info">Vendor has proposed an service fee of %1$s for this job. Are you sure you want to accept?</string>
+    <string name="alert_total_invoice_info"> Are you sure you want to submit blank quote?</string>
+
+    <string name="alert_quote_range_invoice_info"> Quote cannot be less than $3</string>
+    <string name="alert_re_quote_range_invoice_info">Re-quote cannot be less than $3</string>
+    <string name="alert_quote_max_range_invoice_info">Quote cannot be more than $999,999.99</string>
+    <string name="alert_handle_manually_info">Select this option if you want to manually assign ticket directly to preferred vendor not in the application yet</string>
+    <string name="alert_frequency_info">Lorem Ipsum is simply dummy text of the printing and typesetting industry</string>
+    <string name="txt_replace_within_24_hrs">High</string>
+    <string name="txt_replace_within_24_48_hrs">Medium</string>
+    <string name="txt_replace_within_3_5_days">Low</string>
+
+    <string name="txt_na">NA</string>
+    <string name="text_style">
+  <![CDATA[
+     *This job has service fee inclued.<font color="#008FF1"><u> Learn more</u></font>
+  ]]>
+    </string>
+
+    <!--quotes screen-->
+    <string name="txt_assessment">Service Fee</string>
+    <string name="txt_vendor_name">Enter Vendor Name</string>
+    <string name="txt_material">Materials</string>
+    <string name="txt_labour">Labor</string>
+    <string name="txt_contract_labour">Contract Labor</string>
+    <string name="txt_Mileage">Mileage</string>
+    <string name="txt_taxes">Taxes</string>
+    <string name="txt_total_invice">Total Invoice</string>
+    <string name="txt_send_quotes">Send Quotes</string>
+    <string name="txt_submit_ticket">Submit Ticket</string>
+    <string name="txt_submit_quotes">Submit Quote</string>
+    <string name="txt_submit_ticket_quotes">Submit Ticket Quote</string>
+    <string name="txt_add_quotes">Add Quotes</string>
+    <string name="txt_quotes_amount">Amount</string>
+    <string name="txt_quotes_description">Description</string>
+    <string name="txt_warning_quotes_description">Please enter description</string>
+    <string name="txt_warning_quotes_amount">Please enter amount</string>
+    <string name="title_sending_quotes">Sending Quotes</string>
+    <string name="warning_quotes">Please provide quotes</string>
+    <string name="warning_quotes_assessment">Please provide service fee</string>
+    <string name="warning_quotes_assessment_greater_zero">Service fee must be greater than zero</string>
+    <string name="warning_vendor_name">Please provide vendor name </string>
+    <string name="warning_material_details">Please provide material details</string>
+    <string name="warning_labour_details">Please provide labour details</string>
+    <string name="warning_contract_labour_details">Please provide contract labour details</string>
+    <string name="alert_decline_quote">Please Enter Decline Reason</string>
+    <string name="txt_requote">REQUOTE</string>
+    <string name="txt_edit_m_ticket">EDIT</string>
+    <string name="txt_cancel_m_ticket">CANCEL</string>
+
+
+    <!--add property screen-->
+    <string name="address_components_level1_state">administrative_area_level_1</string>
+    <string name="address_components_level2_city">locality</string>
+    <string name="address_components_level_country">country</string>
+    <string name="alert_empty_apartment">Please Fill all address of apartments</string>
+
+    <!--Notification Manager -->
+    <string name="notification_channel_name">vc_notification_channel</string>
+    <string name="notification_channel_description">vc_notification_channel</string>
+    <string name="notification_channel_id">com.vendor.vendorcrush.notifications.channel</string>
+
+
+    <!--Vendor Manually Handle-->
+    <string name="txt_sp_homeowner_details">Property Owner Details</string>
+    <string name="txt_sp_property_owner_name">Enter Property Owner Name</string>
+    <string name="txt_sp_email">Enter Email</string>
+    <string name="txt_sp_phone_number">Enter Phone Number</string>
+    <string name="warning_property_owner_name">Please provide property owner name </string>
+    <string name="txt_submit_external">Submit External Ticket </string>
+
+
+    <!--Firebase CMessagessage -->
+    <string name="sendorName">  sendorName   </string>
+    <string name="uid">         uid          </string>
+    <string name="createdDate"> createdDate  </string>
+    <string name="text">        text         </string>
+    <string name="imageUrl">    imageUrl      </string>
+    <string name="userRole">    userRole      </string>
+
+    <!--Full screen image-->
+    <string name="dialog_title">dialog_title</string>
+    <string name="dialog_img_url">dialog_image_url</string>
+    <string name="txt_chat_warning">Money should not be discussed.</string>
+    <string name="txt_chat_warning2">All parties can see all messages.</string>
+    <string name="has_send_image">just uploaded a new image</string>
+
+    <string name="has_send_image_text"><![CDATA[%1$s  (%2$s) just uploaded a new image]]></string>
+
+    <string name="txt_alert_vendor_manual_ticket">You can use this feature to submit tickets to external client not yet on Vendor Crush. This will make sure all your accounting stays on same app.</string>
+    <string name="txt_chat_edt_text_hint">Message</string>
+
+    <!-- VC-360 Ticket type Initial -->
+    <string name="ticket_type_initial_manually_handle">D</string>
+    <string name="ticket_type_initial_repair">R</string>
+    <string name="ticket_type_initial_maintainace">M</string>
+    <string name="ticket_type_repair">repair</string>
+
+
+
+
+    <!--Alert section-->
+    <string name="txt_selected_role">Selected Role</string>
+    <string name="ticket_pending_txt">Pending\nTickets</string>
+    <string name="ticket_ticket_pending_txt">Pending\nTickets</string>
+    <string name="reoccuring_maintenance_txt">Recurring\nMaintenance</string>
+    <string name="upcoming_tickets_txt">Upcoming\nTickets</string>
+    <string name="txt_all_notification">All Notification</string>
+    <string name="view_all">VIEW ALL</string>
+    <string name="clear_notification">Clear Notification </string>
+    <string name="upcoming_maintenance_txt">Upcoming\nMaintenance</string>
+    <string name="coming_soon_txt">Coming Soon</string>
+    <string name="open_tickets_txt">Open\nTickets</string>
+    <string name="pm_vacancies_txt">Property\nVacancies</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="txt_no_alert">No Alerts Found</string>
+    <string name="txt_home_notification_type">home</string>
+    <string name="txt_title_invite_alert">invite</string>
+    <string name="txt_ticket_pn_chat_type">ticket-chat</string>
+    <string name="txt_ticket_pn_detail_type">ticket-detail</string>
+    <string name="txt_ticket_pending">ticket_pending</string>
+    <string name="txt_ticket_main">ticket_main</string>
+    <string name="txt_ticket_pn_property_type">property</string>
+    <string name="txt_ticket_property">property</string>
+    <string name="txt_ticket_pn_tenant_type">tenant-accept</string>
+
+    <string name="color_green">green</string>
+    <string name="color_yellow">yellow</string>
+    <string name="color_blue">blue</string>
+    <string name="color_orange">orange</string>
+
+    <!-- Tenant property -->
+    <string name="delete_tenant_property">Would you like to disassociate yourself from this property?</string>
+
+    <!-- payout option -->
+    <string name="title_payment_method">Payment Method</string>
+    <string name="title_payout_method">Payout Method</string>
+    <string name="txt_card_owner_name">Name of Card Owner*</string>
+    <string name="txt_edit">Edit</string>
+    <string name="txt_bank_identification_code">Bank Identification Code*</string>
+    <string name="txt_bank_name">Bank Name</string>
+    <string name="txt_account_number">Bank Account Number*</string>
+    <string name="txt_banking_information">Banking Information*</string>
+    <string name="txt_Legal_entity_information">Legal Entity Information</string>
+    <string name="txt_intent_stripe_object">stripe_object</string>
+    <string name="txt_add">Add</string>
+    <string name="txt_delete">Delete</string>
+    <string name="txt_existing_card">Existing cards</string>
+    <string name="txt_add_card">Add Card</string>
+    <string name="txt_edit_card">Edit Card</string>
+    <string name="txt_add_account">Add Account</string>
+    <string name="txt_add_debit_card">Add Debit Card</string>
+    <string name="txt_existing_account">Existing account and debit cards</string>
+    <string name="txt_payment_frequency">Payment Frequency</string>
+    <string name="txt_learn_more">Learn More</string>
+    <string name="intent_pay_mode">pay_mode</string>
+    <string name="alert_delete_card">Do you want to Delete Card ?</string>
+    <string name="alert_delete_account">Do you want to Delete Account ?</string>
+    <string name="alert_make_default_account">Do you want to make this Account your Default Account ?</string>
+    <string name="alert_save_card">Do you want to Save Changes in Card ?</string>
+    <string name="alert_save_account">Do you want to Save Changes to account ?</string>
+    <string name="txt_seletct_payment_option">Select Payment Method</string>
+    <string name="txt_no_card">No card is added to payment option. Please add one</string>
+    <string name="txt_no_account">No account is added to payment option. Please add one</string>
+    <string name="txt_credit_card_info">Credit Card Information</string>
+    <string name="txt_debit_card_info">Debit Card Information</string>
+    <string name="txt_banking_address">Billing Address</string>
+    <string name="card_number_initial">**** **** **** </string>
+    <string name="account_number_initial">******** </string>
+    <string name="card_cvc_initial">***</string>
+    <string name="alert_update_card">You need to add and verify another card before you can modify existing card</string>
+    <string name="txt_select_payment_frequency">Payment Frequency</string>
+    <string name="payment_frequency_warning">Please Select Payment Frequency</string>
+    <string name="txt_vendor_crush_fee">Service Fee</string>
+    <string name="txt_set_as_default_account_toggle">Set as default account</string>
+    <string name="txt_account_default">Default Account</string>
+    <string name="txt_account_delete">Delete</string>
+    <string name="txt_intent_add_card_account">card_account</string>
+    <string name="default_currency_debit_card">USD</string>
+    <string name="stripe_valid_country_name">United States</string>
+    <string name="stripe_valid_country_name_warning">No valid US zipcode</string>
+    <string name="no_debit_card_warning">Please add debit card first</string>
+    <string name="no_debit_card_default_warning">Please make any debit card default first</string>
+    <string name="account_default_warning">You cannot set default account in \'Instant\' frequency</string>
+    <string name="warning_invalid_month">Your card\'s expiration month is invalid </string>
+    <string name="warning_invalid_year">Your card\'s expiration year is invalid </string>
+    <string name="warning_no_card_available">You need to add card to perform payment</string>
+    <string name="warning_no_debit_card">Your card does not seems to be a debit card</string>
+    <string name="warning_delete_alert">Do you want to delete all alert notifications?</string>
+    <string name="upcoming_maintainance">UPCOMING MAINTENANCE</string>
+    <string name="open_ticket">OPEN TICKETS</string>
+
+
+    <!--Quote Dialog -->
+    <string name="txt_vendor_breakdown">Vendor Quote Breakdown</string>
+    <string name="txt_vendor_materials">Material</string>
+    <string name="txt_vendor_labor">Labor</string>
+    <string name="txt_vendor_contract_labor">Contract Labor</string>
+    <string name="txt_pm_quote_breakdown">Quote Breakdown</string>
+    <string name="txt_you_will_receive"><![CDATA[You\'ll Receive]]></string>
+    <string name="txt_you_have_received"><![CDATA[You\'ve Received]]></string>
+    <string name="txt_vednor_crush_fee">Vendor Crush Fee</string>
+    <string name="txt_total_amt_payble">Total Amount Payble</string>
+    <string name="txt_total_amt_paid">Total Amount Paid</string>
+    <string name="txt_vendor_quote">Vendor Quote</string>
+    <string name="txt_plus_doller">+$</string>
+    <string name="txt_minus_doller">-$</string>
+    <string name="txt_ok">OK</string>
+    <string name="txt_breakdown">*Breakdown information will vary according to the option user will select. </string>
+    <string name="txt_vendor_payout_option">It takes 7 days for initial bank account setup. Please also note, first payment will have a $2 fee in addition to regular service fees.</string>
+    <string name="txt_pm_payout_option">Service fee is charged on top of quoted amount. It takes 7 days for initial bank account setup. Please also note, first payment will have a $2 fee in addition to regular service fees.</string>
+    <string name="txt_all_logout">logout</string>
+    <string name="txt_all_logout_session">Log out from all active session</string>
+    <string name="txt_true">true</string>
+    <string name="txt_false">false</string>
+    <string name="txt_assign_vendor">ASSIGN VENDOR</string>
+    <string name="txt_assign_vendor_ticket_detail">ASSIGN \nVENDOR</string>
+
+    <string name="txt_manual_review_and_distribute">Vendor Auto Assign</string>
+    <string name="min_key_warning">Please Enter minimum four Character</string>
+    <string name="valid_key_warning">Please Enter minimum four Character</string>
+    <string name="isSpeciality_true">1</string>
+    <string name="isSpeciality_false">0</string>
+    <string name="txt_assign_vendor_message">Do You want to assign this vendor ?</string>
+
+
+</resources>

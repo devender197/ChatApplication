@@ -1,0 +1,180 @@
+<resources>
+
+        <!-- Base application theme. -->
+
+        <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+            <!--Customize your theme here.-->
+            <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="colorAccent">@color/colorAccent</item>
+            <item name="toolbarStyle">@style/custom_toolbar</item>
+            <item name="homeAsUpIndicator">@mipmap/back_arrow</item>
+        </style>
+
+        <style name="custom_toolbar" parent="@style/Widget.AppCompat.Toolbar">
+            <item name="titleTextColor">@color/colorAccent</item>
+        </style>
+
+        <!--<style name="AppTheme.Splash" parent="Theme.AppCompat.NoActionBar">
+            <item name="android:windowBackground">@drawable/splash_screen</item>
+        </style>-->
+
+        <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+        <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+        <style name="FullscreenTheme" parent="Theme.AppCompat.NoActionBar">
+            <item name="android:windowActionBarOverlay">true</item>
+            <item name="colorAccent">@color/colorAccent</item>
+            <item name="colorControlActivated">@color/colorPrimaryDark</item>
+            <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+            <item name="android:textColorHighlight">@color/colorPrimaryDark</item>
+            <item name="android:textColorLink">@color/colorPrimaryDark</item>
+            <item name="android:textColor">@color/alert_dialog_primary_text_color</item>
+            <item name="android:windowIsTranslucent">true</item>
+        </style>
+
+        <style name="CardWidgetStyle" parent="@android:style/Theme.DeviceDefault">
+            <item name="android:background">@color/white</item>
+            <item name="editTextStyle">@style/EditTextOverride</item>
+            <item name="android:editTextStyle">@style/EditTextOverride</item>
+        </style>
+
+        <style name="EditTextOverride" parent="@android:style/Widget.EditText">
+            <item name="android:textColor">#FFFFFF</item>
+            <item name="android:colorBackgroundCacheHint">#000000</item>
+            <item name="android:textColorHighlight">#000000</item>
+            <item name="android:textColorHint">#008FF1</item>
+        </style>
+
+        <style name="MySwitch" parent="Theme.AppCompat.Light">
+            <!-- active thumb & track color (30% transparency) -->
+            <item name="colorControlActivated">@color/switch_compat_color</item>
+            <!-- inactive thumb color -->
+            <item name="colorSwitchThumbNormal">@color/black_overlay</item>
+            <!-- inactive track color (30% transparency) -->
+            <item name="android:colorForeground">@color/order_page_devider</item>
+        </style>
+
+        <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+            <item name="colorAccent">@color/colorAccent</item>
+            <item name="android:textColor">@color/alert_dialog_text_color</item>
+            <item name="android:textColorPrimary">@color/alert_dialog_primary_text_color</item>
+        </style>
+
+        <style name="TranslucentTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+            <item name="android:windowNoTitle">true</item>
+            <item name="android:windowActionBar">false</item>
+            <item name="android:windowFullscreen">true</item>
+            <item name="android:windowContentOverlay">@null</item>
+        </style>
+
+
+
+        <style name="textHeaderSignup" parent="android:Widget.Holo.Light.TextView">
+            <item name="android:drawablePadding">4dp</item>
+            <item name="android:layout_marginTop">8dp</item>
+            <item name="android:paddingLeft">4dp</item>
+            <item name="android:textColor">@color/text_color_gray</item>
+            <item name="android:textSize">14sp</item>
+        </style>
+
+        <style name="textHeaderSignupLabel" parent="android:Widget.Holo.Light.TextView">
+            <item name="android:drawablePadding">4dp</item>
+            <item name="android:layout_marginTop">2dp</item>
+            <item name="android:paddingLeft">4dp</item>
+            <item name="android:textColor">@color/text_color_gray</item>
+            <item name="android:textSize">14sp</item>
+        </style>
+
+
+        <style name="textAlertFragmentHeaderDigits" parent="android:Widget.Holo.Light.TextView">
+            <item name="android:textAllCaps">true</item>
+            <item name="android:textColor">@color/colorAccent</item>
+            <item name="android:textSize">@dimen/text_size_24</item>
+            <item name="android:gravity">center</item>
+            <item name="android:textStyle">bold</item>
+            <item name="android:layout_gravity">center</item>
+        </style>
+
+        <style name="textAlertFragmentHeader" parent="android:Widget.Holo.Light.TextView">
+            <item name="android:textAllCaps">true</item>
+            <item name="android:textStyle">bold</item>
+            <item name="android:textSize">@dimen/text_size_10</item>
+            <item name="android:textColor">@color/text_color_gray</item>
+            <item name="android:gravity">center</item>
+            <item name="android:layout_gravity">center</item>
+            <item name="android:paddingTop">@dimen/padding_5dp</item>
+        </style>
+
+
+        <style name="textAlertFragmentTenantAddress" parent="android:Widget.Holo.Light.TextView">
+            <item name="android:textAllCaps">true</item>
+            <item name="android:textStyle">bold</item>
+            <item name="android:textSize">@dimen/text_size_12</item>
+            <item name="android:paddingTop">@dimen/padding_5dp</item>
+        </style>
+
+        <style name="verticalLine" parent="android:Widget.Holo.Light.TextView">
+            <item name="android:layout_height">match_parent</item>
+            <item name="android:layout_marginBottom">@dimen/padding_10dp</item>
+            <item name="android:layout_marginTop">@dimen/padding_10dp</item>
+            <item name="android:background">@color/light_gray</item>
+        </style>
+
+        <style name="horizontalLine" parent="android:Widget.Holo.Light.TextView">
+            <item name="android:layout_marginBottom">@dimen/padding_10dp</item>
+            <item name="android:layout_marginTop">@dimen/padding_10dp</item>
+            <item name="android:layout_gravity">center</item>
+            <item name="android:gravity">center</item>
+            <item name="android:background">@color/light_gray</item>
+        </style>
+
+
+        <style name="editTextMain">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+
+            <item name="android:paddingLeft">@dimen/padding_5dp</item>
+            <item name="android:paddingRight">@dimen/padding_5dp</item>
+
+            <item name="android:textColor">@color/black</item>
+            <item name="android:gravity">center_vertical</item>
+            <item name="android:maxLines">1</item>
+            <item name="android:textSize">@dimen/text_size_16</item>
+
+
+        </style>
+
+
+        <style name="FullscreenTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+        <style name="FullscreenTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+        <style name="DialogTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+            <item name="colorAccent">@color/colorAccent</item>
+        </style>
+
+
+
+        <style name="CustomTextAppearance_everyone_team" parent="TextAppearance.Design.Tab">
+            <item name="textAllCaps">false</item>
+            <item name="android:textColor">@color/color_white</item>
+            <item name="android:textSize">@dimen/text_size_10</item>
+            <item name="android:textStyle">bold</item>
+        </style>
+
+        <style name="dialog_animation_fade" >
+            <item name="android:windowEnterAnimation">@anim/fade_in_dialog</item>
+            <item name="android:windowExitAnimation">@anim/fade_out_dialog</item>
+        </style>
+
+        <style name="MyDialog" parent="@android:style/Theme.Dialog">
+            <item name="android:windowFrame">@null</item>
+            <item name="android:windowBackground">@color/transprant</item>
+            <item name="android:windowTitleStyle">@null</item>
+        </style>
+
+
+</resources>

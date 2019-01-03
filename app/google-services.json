@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "88519809606",
+    "firebase_url": "https://chatapplication-947d8.firebaseio.com",
+    "project_id": "chatapplication-947d8",
+    "storage_bucket": "chatapplication-947d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88519809606:android:faa2ffd68eea7790",
+        "android_client_info": {
+          "package_name": "com.example.a3logics.chatapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88519809606-2nfikclnv7m7tgmmraj502gtm8jsrvu0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlYZ0mVjd6zf0hwzZhHo403l2JjDQZfxM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="vendor_type">
+        <item>general</item>0
+        <item>plumbing</item>1
+        <item>electrical</item>2
+        <item>landscaping</item>3
+        <item>carpentry</item>4
+        <item>cleaning</item>5
+        <item>deck-and-porches</item>6
+        <item>drywall-and-insulation</item>7
+        <item>heating-and-cooling</item>8
+        <item>painting</item>9
+        <item>roofing</item>10
+        <item>pools-and-Spas</item>11
+    </array>
+
+    <array name="vendor_type2">
+        <item>Plumbing</item>1
+        <item>Electrical</item>2
+        <item>Landscaping</item>3
+        <item>Carpentry</item>4
+        <item>Cleaning</item>5
+        <item>Deck &amp; Porches</item>6
+        <item>Drywall &amp; Insulation</item>7
+        <item>Heating &amp; Cooling</item>8
+        <item>Painting</item>9
+        <item>Roofing</item>10
+        <item>Pool &amp; Spas</item>11
+    </array>
+
+    <array name="vendor_type_send_array">
+        <item>general</item>
+        <item>plumbing</item>
+        <item>electrical</item>
+        <item>landscaping</item>
+        <item>carpentry</item>
+        <item>cleaning</item>
+        <item>deck-and-porches</item>
+        <item>drywall-and-insulation</item>
+        <item>heating-and-cooling</item>
+        <item>painting</item>
+        <item>roofing</item>
+        <item>pools-and-spas</item>
+    </array>
+
+    <array name="vendor_type2_send_array">
+        <item>plumbing</item>
+        <item>electrical</item>
+        <item>landscaping</item>
+        <item>carpentry</item>
+        <item>cleaning</item>
+        <item>deck-and-porches</item>
+        <item>drywall-and-insulation</item>
+        <item>heating-and-cooling</item>
+        <item>painting</item>
+        <item>roofing</item>
+        <item>pools-and-spas</item>
+    </array>
+
+    <array name="ticket_type_pm">
+        <item>Repair</item>
+        <item>Maintenance</item>
+    </array>
+
+    <array name="ticket_type_tenant">
+        <item>Repair</item>
+    </array>
+
+    <array name="repeat_type">
+        <item>Weekly</item>
+        <item>Bi-Weekly</item>
+        <item>Monthly</item>
+        <item>Bi-Annually</item>
+        <item>Yearly</item>
+    </array>
+
+    <array name="repair_priority">
+        <item>Within 24 hrs</item>
+        <item>Within 24-48 hrs</item>
+        <item>Within 3-5 days</item>
+    </array>
+
+    <array name="repair_priority_server">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </array>
+
+
+
+    <array name="Ticket_status_array">
+        <item>Assign</item>
+        <item>Assess</item>
+        <item>In-Progress</item>
+        <item>Closure</item>
+    </array>
+
+    <array name="payment_frequency">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Instant</item>
+
+    </array>
+
+
+
+
+
+
+
+</resources>

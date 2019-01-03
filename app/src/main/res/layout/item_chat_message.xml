@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chat_item_wrapper_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/paddingButtons"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rel_chat_group_lyt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/messageMargin"
+        android:layout_marginTop="@dimen/messageMargin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_group_separtor_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/messageMargin"
+            android:layout_marginRight="@dimen/messageMargin"
+            android:textColor="@color/darkGreyColor"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/chat_left_msg_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginEnd="@dimen/marginTopdescription"
+        android:layout_marginRight="@dimen/marginTopdescription"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/chat_left_reciever_name_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|top"
+            android:paddingRight="@dimen/paddingButtons"
+            android:textSize="@dimen/txtSizeMedium"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/gridImagemargins"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/image_read_status_left"
+                android:layout_width="@dimen/paddingMargins_Left"
+                android:layout_height="@dimen/paddingMargins_Left"
+                android:layout_gravity="bottom"/>
+            <RelativeLayout
+                android:id="@+id/chat_image_layout_left"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:padding="@dimen/paddingButtons">
+
+
+
+                <ImageView
+                    android:id="@+id/chat_msg_image_left"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_centerInParent="true"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_centerInParent="true"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_image_frame_left" />
+                <ProgressBar
+                    android:id="@+id/progress_left"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/chat_txt_layout_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/blue"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/chat_left_msg_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingRight="@dimen/paddingButtons"
+                    android:paddingEnd="@dimen/paddingButtons"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <com.example.a3logics.chatapplication.AudioPlayer.AudioPlayerWidget
+                android:id="@+id/audio_left"
+                android:layout_width="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/txt_time_left"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="@dimen/paddingButtons"
+                android:gravity="end|bottom"
+                android:textSize="@dimen/txtSizeMedium" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chat_right_msg_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginLeft="@dimen/marginTopdescription"
+        android:layout_marginStart="@dimen/marginTopdescription"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/chat_right_sender_name_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginLeft="@dimen/paddingButtons"
+            android:gravity="end|bottom"
+            android:textColor="@color/black"
+            android:textSize="@dimen/txtSizeSmall"
+            android:visibility="gone">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_time_right"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:layout_marginRight="@dimen/paddingButtons"
+                android:gravity="start|bottom"
+                android:textSize="@dimen/txtSizeMedium" />
+
+            <ImageView
+                android:id="@+id/image_read_status_right"
+                android:layout_width="@dimen/paddingLayout"
+                android:layout_height="@dimen/paddingLayout"
+                android:src="@drawable/ic_access_time_black_24dp"
+                android:layout_gravity="bottom"
+                />
+
+            <RelativeLayout
+                android:id="@+id/chat_image_layout_right"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:padding="@dimen/paddingButtons"
+
+                >
+                <ImageView
+                    android:id="@+id/chat_msg_image_right"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_centerInParent="true"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_centerInParent="true"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_image_frame" />
+                <ProgressBar
+                    android:id="@+id/progress_right"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/chat_txt_layout_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/blue_right"
+                android:gravity="center"
+                android:paddingLeft="@dimen/paddingButtons"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/chat_right_msg_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="start|top"
+                    android:textColor="@color/white"
+
+                    />
+
+            </LinearLayout>
+
+            <com.example.a3logics.chatapplication.AudioPlayer.AudioPlayerWidget
+                android:id="@+id/audio_right"
+                android:layout_width="150dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
